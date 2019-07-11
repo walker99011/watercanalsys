@@ -5,8 +5,7 @@ using System.Web;
 using System.Web.Services;
 using System.Data.Entity;
 using System.Web.Script.Serialization;
-//using System.Runtime.Serialization.Json;
-
+//using System.LINQ;
 
 namespace PaymentSystemWatercanal
 {
@@ -109,19 +108,9 @@ namespace PaymentSystemWatercanal
         {
             using (Context db = new Context())
             {
-                DateTime stop = new DateTime(2019, 07, 1); // условное время создания проекта
-                DateTime date = DateTime.Today;
-                Device reqDevice = db.Devices.FirstOrDefault(d => d.PersonalAccount == id && d.Meter == meter && d.Date == date);
-                while (reqDevice == null && date != stop)
-                {
-                    date = date.AddDays(-1);
-                    reqDevice = db.Devices.FirstOrDefault(d => d.PersonalAccount == id && d.Meter == meter && d.Date == date);
-                }
-                var devices = db.Devices.Where(d => d.PersonalAccount == id && d.Meter == meter && d.Date == date);
-                foreach (Device device in devices)
-                {
-                    if (reqDevice.PreviousStats < device.PreviousStats) reqDevice = device;
-                }
+                int reqId = db.Devices.Where(b => b.PersonalAccount == id && b.Meter == meter)
+                    .Max(b => b.DeviceId);
+                Device reqDevice = db.Devices.FirstOrDefault(b => b.DeviceId == reqId);
                 return reqDevice;
             }
         }
@@ -130,19 +119,9 @@ namespace PaymentSystemWatercanal
         {
             using (Context db = new Context())
             {
-                DateTime stop = new DateTime(2019, 07, 1); // условное время создания проекта
-                DateTime date = DateTime.Today;
-                Balance reqBalance = db.Balances.FirstOrDefault(b => b.PersonalAccount == id && b.Date == date);
-                while (reqBalance == null && date != stop)
-                {
-                    date = date.AddDays(-1);
-                    reqBalance = db.Balances.FirstOrDefault(b => b.PersonalAccount == id && b.Date == date);
-                }
-                var balances = db.Balances.Where(b => b.PersonalAccount == id && b.Date == date);
-                foreach (Balance balance in balances)
-                {
-                    if (reqBalance.BalanceId < balance.BalanceId) reqBalance = balance;
-                }
+                int reqId = db.Balances.Where(b => b.PersonalAccount == id)
+                    .Max(b => b.BalanceId);
+                Balance reqBalance = db.Balances.FirstOrDefault(b => b.BalanceId == reqId);
                 return reqBalance;
             }
         }
