@@ -1,0 +1,121 @@
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\PaymentSystemWatercanal.dll.config
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\PaymentSystemWatercanal.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\PaymentSystemWatercanal.pdb
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\csc.exe
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\csc.exe.config
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\csc.rsp
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\csi.exe
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\csi.exe.config
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\csi.rsp
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.AppContext.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Console.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.IO.Compression.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Security.Claims.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.ValueTuple.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\vbc.exe
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\vbc.exe.config
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\vbc.rsp
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\VBCSCompiler.exe
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\EntityFramework.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\EntityFramework.SqlServer.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\EntityFramework.xml
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\EntityFramework.SqlServer.xml
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.csprojAssemblyReference.cache
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.csproj.CoreCompileInputs.cache
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.csproj.CopyComplete
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.dll
+C:\Users\pc-0\source\repos\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.pdb
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\PaymentSystemWatercanal.dll.config
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\PaymentSystemWatercanal.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\PaymentSystemWatercanal.pdb
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\csc.exe
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\csc.exe.config
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\csc.rsp
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\csi.exe
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\csi.exe.config
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\csi.rsp
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.AppContext.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Console.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.IO.Compression.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Security.Claims.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.ValueTuple.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\vbc.exe
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\vbc.exe.config
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\vbc.rsp
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\VBCSCompiler.exe
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\EntityFramework.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\EntityFramework.SqlServer.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\EntityFramework.xml
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\EntityFramework.SqlServer.xml
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.csprojAssemblyReference.cache
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.csproj.CoreCompileInputs.cache
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.csproj.CopyComplete
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.dll
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\obj\Debug\PaymentSystemWatercanal.pdb
+C:\Users\pc-0\Desktop\Практика. Попов М\PaymentSystemWatercanal\bin\Newtonsoft.Json.dll
