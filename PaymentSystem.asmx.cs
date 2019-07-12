@@ -4,8 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Services;
 using System.Data.Entity;
+using System.Web.Script.Services;
 using System.Web.Script.Serialization;
-//using System.LINQ;
+using System.Web.Http;
+using Newtonsoft.Json;
+using PSWDb;
 
 namespace PaymentSystemWatercanal
 {
@@ -20,9 +23,11 @@ namespace PaymentSystemWatercanal
     public class PaymentSystem : System.Web.Services.WebService
     {
         [WebMethod]
+        [HttpPost]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public void GetUser(int id)
         {
-            using (Context db = new Context())
+            using (PSWContext db = new PSWContext())
             {
                 User user = db.Users.Find(id);
                 if (user == null)
@@ -38,6 +43,8 @@ namespace PaymentSystemWatercanal
         }
 
         [WebMethod]
+        [HttpPost]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public void GetDevice(int id, int meter)
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
@@ -45,6 +52,8 @@ namespace PaymentSystemWatercanal
         }
 
         [WebMethod]
+        [HttpPost]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public void GetBalance (int id)
         {
             JavaScriptSerializer js = new JavaScriptSerializer();
@@ -52,6 +61,8 @@ namespace PaymentSystemWatercanal
         }
 
         [WebMethod]
+        [HttpPost]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public void SetDeviceStats (string inpId, string inpStats, string inpMeter) // изменение показаний => снятие денег
         {
             DateTime currentDate = DateTime.Today;
@@ -64,23 +75,25 @@ namespace PaymentSystemWatercanal
                 prevStats = 0;
             else
                 prevStats = prevDevice.PreviousStats;
-            using (Context db = new Context())
+            using (PSWContext db = new PSWContext())
             {               
                 Device device = new Device { PersonalAccount = id, Meter = meter, PreviousStats = stats + prevStats, Date = currentDate };
                 db.Devices.Add(device);
                 db.SaveChanges();
             }
-            SetBalanceStats(id, stats, meter, -stats);
+            SetBalanceStats(id, meter, -stats);
         }
 
         [WebMethod]
+        [HttpPost]
+        [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public void SetBalanceRefill (string inpId, string inpBalance) // пополнение
         {
             DateTime currentDate = DateTime.Today;
             int id, newBalance;
             Int32.TryParse(inpId, out id);
             Int32.TryParse(inpBalance, out newBalance);
-            using (Context db = new Context())
+            using (PSWContext db = new PSWContext())
             {
                 Balance balance = GetLastBalance(id);
                 balance.BalanceSum += newBalance;
@@ -91,12 +104,12 @@ namespace PaymentSystemWatercanal
             }
         } 
 
-        public void SetBalanceStats(int id, int stats, int meter, int balance) // снятие денег
+        public void SetBalanceStats(int id, int meter, int balance) // снятие денег
         {
             DateTime date = DateTime.Today;
             Balance prevBalance = GetLastBalance(id);
             Meter priceMeter = GetMeter(meter);
-            using (Context db = new Context())
+            using (PSWContext db = new PSWContext())
             {
                 Balance newBalance = new Balance { PersonalAccount = id, BalanceSum = prevBalance.BalanceSum + balance * priceMeter.Price, Date = date, Type = 2 };
                 db.Balances.Add(newBalance);
@@ -106,7 +119,7 @@ namespace PaymentSystemWatercanal
 
         public Device GetLastDevice(int id, int meter)
         {
-            using (Context db = new Context())
+            using (PSWContext db = new PSWContext())
             {
                 int reqId = db.Devices.Where(b => b.PersonalAccount == id && b.Meter == meter)
                     .Max(b => b.DeviceId);
@@ -117,7 +130,7 @@ namespace PaymentSystemWatercanal
 
         public Balance GetLastBalance(int id)
         {
-            using (Context db = new Context())
+            using (PSWContext db = new PSWContext())
             {
                 int reqId = db.Balances.Where(b => b.PersonalAccount == id)
                     .Max(b => b.BalanceId);
@@ -128,7 +141,7 @@ namespace PaymentSystemWatercanal
 
         public Meter GetMeter(int id)
         {
-            using (Context db = new Context())
+            using (PSWContext db = new PSWContext())
             {
                 Meter meter = db.Meters.Find(id);
                 return meter;

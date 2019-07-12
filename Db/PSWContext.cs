@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Data.Entity;
 
-namespace PaymentSystemWatercanal
+namespace PSWDb
 {
-    public class Context : DbContext
+    public class PSWContext : DbContext
     {
-        public Context()
+        public PSWContext()
             : base("WaterCanal")
         { }
         public DbSet<Device> Devices { get; set; }
